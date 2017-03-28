@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Cricket Score",
+  "version": "1.0",
+
+  "description": "Get the live scores of cricket matches",
+  "homepage_url": "https://github.com/dushyantRathore/Cricket_Score-WebExtension",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon1.jpg", // Default icon displayed
+    "default_title": "Cricketify",
+    "default_popup": "popup/index.html"
+  }
+}
