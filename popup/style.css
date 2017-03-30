@@ -1,3 +1,33 @@
-body{
-  background-color: yellow;
+html, body {
+  width: 600px;
+}
+
+.button {
+  background-color: #FCFCFC;
+  margin: 3% auto;
+  padding: 4px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  border-style:outset;
+  border-width: medium;
+  border-radius: 5px;
+}
+
+#Team_A{
+  color: Blue;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#Team_B{
+  color: Red;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#Status{
+  color: #006400;
+  font-family: monospace;
+  font-weight: bolder;
 }
