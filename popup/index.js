@@ -13,11 +13,11 @@ $.getJSON('https://powerful-tor-13817.herokuapp.com/live', function(data) {
     for (var i =0; i<size; i++){
             HTMLtext += '<div class = "button">';
             HTMLtext += '<span id = "Team_A">' + data["Matches"][i]["Team A"] + '</span>';
-            HTMLtext += '<b> v/s </b>';
+            HTMLtext += '<b><i><u> v/s </u></i></b>';
             HTMLtext += '<span id = "Team_B">' + data["Matches"][i]["Team B"] + '</span>';
             HTMLtext += '<br /><br />';
             HTMLtext += '<span id = "Status">' + data["Matches"][i]["Status"] + '</span>';
-            HTMLtext += '</div>';
+            HTMLtext += '</div><hr class = "hr_style"/>';
     }
 
     $('body').append(HTMLtext);
