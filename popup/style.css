@@ -2,32 +2,46 @@ html, body {
   width: 600px;
 }
 
+#heading{
+  width: 600px;
+  height: 100px;
+  background-color:#1E90FF;
+}
+
+#heading_text{
+  color:white;
+  position:relative;
+  top : 35%;
+}
+
 .button {
-  background-color: #FCFCFC;
   margin: 3% auto;
   padding: 4px;
   font-size: 1em;
   text-align: center;
   cursor: pointer;
-  border-style:outset;
-  border-width: medium;
-  border-radius: 5px;
 }
 
 #Team_A{
-  color: Blue;
-  font-family: monospace;
+  color: 	#4169E1;
+  font-family:sans-serif;
   font-weight: bolder;
 }
 
 #Team_B{
-  color: Red;
-  font-family: monospace;
+  color: 	#DC143C;
+  font-family:sans-serif;
   font-weight: bolder;
 }
 
 #Status{
-  color: #006400;
-  font-family: monospace;
+  color: 	#228B22;
+  font-family:sans-serif;
   font-weight: bolder;
+}
+
+.hr_style{
+color: #1E90FF;
+background-color: #1E90FF;
+height: 4px;
 }
