@@ -6,7 +6,7 @@
   "description": "Get the live scores of cricket matches",
   "homepage_url": "https://github.com/dushyantRathore/Cricket_Score-WebExtension",
   "icons": {
-    "48": "icons/icon1.jpg"
+    "48": "icons/icon1.png"
   },
 
   "permissions": [
