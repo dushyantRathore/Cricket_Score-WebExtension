@@ -1,9 +1,9 @@
 html, body {
-  width: 600px;
+  width: 650px;
 }
 
 #heading{
-  width: 600px;
+  width: 650px;
   height: 100px;
   background-color:#1E90FF;
 }
@@ -44,4 +44,11 @@ html, body {
 color: #1E90FF;
 background-color: #1E90FF;
 height: 4px;
+}
+
+.versus_image{
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 8px;
 }
