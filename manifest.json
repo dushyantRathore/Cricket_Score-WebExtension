@@ -14,7 +14,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/icon2.png", // Default icon displayed
+    "default_icon": "icons/icon1.png", // Default icon displayed
     "default_title": "Cricketify",
     "default_popup": "popup/index.html"
   }
