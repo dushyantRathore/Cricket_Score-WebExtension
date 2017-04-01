@@ -7,7 +7,13 @@ $.getJSON('https://powerful-tor-13817.herokuapp.com/live', function(data) {
     // console.log(data["Matches"][0]["Status"]);
     // document.getElementById('Status').innerHTML = "Status : " + data["Matches"][0]["Status"];
 
-    var size = data["Matches"].length;
+    var size = data["Matches"].length; //Get the size of the JSON response
+
+    if(size == 0){
+      $('body').append("No match being played currently.");
+    }
+
+    else{
     var HTMLtext = '';
 
     for (var i =0; i<size; i++){
@@ -21,5 +27,6 @@ $.getJSON('https://powerful-tor-13817.herokuapp.com/live', function(data) {
     }
 
     $('body').append(HTMLtext);
+}
 
 });
